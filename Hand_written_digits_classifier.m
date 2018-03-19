@@ -1,4 +1,5 @@
 %W.M.R.R.Wickramasinghe
+%==================Neural Network to Classify Hand Written Digits==========
 %% 
 %=====================load dataset=========================================
 clear all,close all,clc;
