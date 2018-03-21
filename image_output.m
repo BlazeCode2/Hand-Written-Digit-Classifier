@@ -2,7 +2,9 @@ function exter = image_output()
 
 
 % ima=snapshot(webcam);
-url = 'http://192.168.1.2:8080/shot.jpg';
+% url = 'http://192.168.1.2:8080/shot.jpg';
+% url = 'http://192.168.43.1:8080/shot.jpg';
+url = 'http://192.168.8.100:8080/shot.jpg';
 ima  = imread(url);
 whos ima
 ima=rgb2ntsc(ima);
